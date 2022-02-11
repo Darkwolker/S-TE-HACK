@@ -22,7 +22,12 @@ if [[ $kontrol == 0 ]];then
 	pkg install python -y
 fi
 clear
-bash banner.sh
+########################################
+#                                      #
+#   coder by DarkWolker                #
+#   sqlmap hızlı ve kolay versiyon     #
+#                                      #
+########################################
 echo
 echo
 echo
@@ -80,4 +85,4 @@ echo
 python sqlmap.py -u "$link"-D $databasead -T $tabload -C $kolonad --dump --batch
 echo
 echo
-exit 
+print
